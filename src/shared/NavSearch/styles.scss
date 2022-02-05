@@ -1,0 +1,113 @@
+@import '../../sassStyles/variables';
+
+.navSearch {
+    position: absolute;
+    top: 1rem;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+
+
+    &_content {
+        border-bottom: 1px solid #F3F3F333;
+        padding-bottom: 1rem;
+
+        &-form {
+            border: 1px solid rgba($color: #fff, $alpha: .6);
+            border-radius: 5px;
+            height: 40px;
+
+            .dropdown_links {
+                align-self: center;
+                min-width: 170px;
+
+                ul {
+                    left: 0;
+                    padding: 0;
+                    min-width: 11rem;
+
+                    &:before {
+                        content: "";
+                        position: absolute;
+                        top: -7px;
+                        right: 12%;
+                        width: 0;
+                        z-index: 1;
+                        height: 0;
+                        border-left: 5px solid transparent;
+                        border-right: 5px solid transparent;
+                        border-bottom: 10px solid white;
+
+                    }
+
+                    li {
+                        position: relative;
+                        z-index: 2;
+                        // &:not(:last-of-type) {
+                        //     border-bottom: 1px solid rgba(255, 255, 255, .5);
+                        // }
+                    }
+                }
+
+                &>div {
+                    white-space: nowrap;
+                    height: 100%;
+                    padding-bottom: 0;
+                    color: white;
+                    text-transform: capitalize;
+                    font-size: 16px;
+                    padding: 0 1rem;
+                    font-weight: 300;
+
+                    svg {
+                        margin-left: 10px;
+                    }
+                }
+
+
+
+                span {
+                    color: $primaryColor;
+                    padding: 10px 1rem;
+                    display: block;
+                    cursor: pointer;
+                    font-size: 0.9rem;
+                    white-space: nowrap;
+                    transition: all 0.2s ease-in;
+                    font-weight: 500;
+
+
+
+                    &:hover,
+                    &.active {
+                        color: white;
+                        background-color: $primaryColor;
+                    }
+                }
+            }
+
+            input {
+                background-color: transparent;
+                border-color: transparent;
+                border-left: 1px solid #ffffff61;
+                border-radius: 0;
+                height: 80%;
+                align-self: center;
+                color: rgba(255, 255, 255, .7);
+                font-weight: 300;
+            }
+
+            .button-main {
+                border-radius: 0 5px 5px 0;
+                font-size: 18px;
+                min-width: 7rem;
+
+            }
+
+        }
+
+        ._numbers {}
+
+    }
+
+}

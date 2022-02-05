@@ -1,0 +1,114 @@
+.footer {
+    background-color: #3C3C3B;
+    padding-top: 4rem;
+    padding-bottom: 2rem;
+    color: white;
+
+    &_desc {
+        width: 47%;
+        padding-right: 5%;
+        border-right: 2px solid #454544;
+        margin-right: 3%;
+
+        img {
+            width: 20rem;
+            margin-bottom: 4rem;
+        }
+
+        &-text {
+            font-size: 1.2rem;
+            font-weight: 400;
+
+            &:not(:last-of-type) {
+                margin-bottom: 2rem;
+            }
+        }
+    }
+
+    &_links {
+        label {
+            font-size: 1.8rem;
+            margin-bottom: .7rem;
+        }
+
+        .input-group {
+            width: 100%;
+            border: none;
+            border-radius: 24px;
+            overflow: hidden;
+            padding: .5rem;
+            background-color: #FFFFFF;
+            height: 4.5rem;
+
+            input {
+                border: none;
+                background-color: inherit;
+                font-size: var(--font-12);
+                font-weight: 500;
+                outline: none;
+                box-shadow: none;
+            }
+
+            button {
+                background-color: var(--primary-color);
+                color: black;
+                border: none;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                border-radius: 24px !important;
+                padding: .5rem 1rem;
+                font-weight: 600;
+
+                img {
+                    width: 1.5rem;
+                    margin-left: .4rem;
+                }
+            }
+        }
+
+        &-links {
+            margin-top: 2rem;
+
+            ul {
+                list-style: none;
+
+                li {
+                    margin: .6rem;
+
+                    a {
+                        color: #FFFFFF;
+                        font-size: 1.3rem;
+                        font-weight: 400;
+                    }
+                }
+            }
+
+            .inner_links {
+                border-right: 2px solid #454544;
+            }
+
+            .social_links {
+                padding-left: 4rem;
+
+                img {
+                    margin-right: 1rem;
+                }
+            }
+        }
+
+    }
+
+    &_foot {
+        border-top: 2px solid #454544;
+        padding-top: 2rem;
+        margin-top: 4rem;
+
+        img {
+            width: 8rem;
+            height: 4rem;
+            object-fit: contain;
+            margin-right: 1rem;
+        }
+    }
+}

@@ -1,0 +1,41 @@
+@import '../../sassStyles/variables';
+
+.navbar-brand {
+    width: 70px;
+}
+
+.navbarLinks {
+    position: absolute;
+    top: 5rem;
+    left: 0;
+    width: 100%;
+    z-index: 9;
+
+    &_links {
+        .dropdown_links {
+            &:not(:last-of-type) {
+                margin-right: 3rem;
+            }
+
+            &:hover {
+                span {
+                    color: $secondaryColor;
+                }
+
+                svg path {
+                    stroke: $secondaryColor;
+                }
+
+                svg {
+                    transform: rotateX(180deg);
+                }
+            }
+
+            span {
+                cursor: default;
+
+
+            }
+        }
+    }
+}
