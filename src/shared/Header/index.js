@@ -56,7 +56,7 @@ function Header() {
             <div className="header_slide-content  text-white text-center">
               <h2>Affordable, Simplified Shipping and Logistics From Zajil</h2>
               <p className="text-white">Discover what our Saudi integrity and global capacity can do for your bottom line</p>
-              <button type="button" class="text18 fw-normal  btn btn-secondery-outline">
+              <button type="button" className="text18 fw-normal  btn btn-secondery-outline">
                 Learn More
               </button>
             </div>
@@ -72,9 +72,9 @@ function Header() {
             <img src={shape} alt="shape" className="shape shape1" />
             <img src={shape} alt="shape" className="shape shape2" />
             <div className="header_slide-content  text-white text-center">
-              <h2>Affordable, Simplified Shipping and Logistics From Zajil</h2>
-              <p className="text-white">Discover what our Saudi integrity and global capacity can do for your bottom line</p>
-              <button type="button" class="text18 fw-normal  btn btn-secondery-outline">
+              <h2>Global Reach From a Local KSA Success Story</h2>
+              <p className="text-white">Saudi’s first private postal company now has a global network capacity</p>
+              <button type="button" className="text18 fw-normal  btn btn-secondery-outline">
                 Learn More
               </button>
             </div>
@@ -90,9 +90,12 @@ function Header() {
             <img src={shape} alt="shape" className="shape shape1" />
             <img src={shape} alt="shape" className="shape shape2" />
             <div className="header_slide-content  text-white text-center">
-              <h2>Affordable, Simplified Shipping and Logistics From Zajil</h2>
-              <p className="text-white">Discover what our Saudi integrity and global capacity can do for your bottom line</p>
-              <button type="button" class="text18 fw-normal  btn btn-secondery-outline">
+              <h2>Optimized Technology Delivers Superior Results</h2>
+              <p className="text-white">
+                Superior technology takes the complexity out of your shipping experience. Zajil delivers dramatic simplicity to shipping and logistics
+                with technology innovation to streamline aglobal network capacity.
+              </p>
+              <button type="button" className="text18 fw-normal  btn btn-secondery-outline">
                 Learn More
               </button>
             </div>

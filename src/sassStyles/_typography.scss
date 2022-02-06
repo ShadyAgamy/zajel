@@ -118,3 +118,15 @@ ul {
     -webkit-box-orient: vertical;
 
 }
+
+.max-4-lines {
+    word-break: break-word;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    line-height: 60px;
+    max-height: 120px;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+
+}
