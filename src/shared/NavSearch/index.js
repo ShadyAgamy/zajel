@@ -46,7 +46,11 @@ function NavSearch() {
         </Col>
         <Col sm={4} className="px-0">
           <Nav className="d-flex justify-content-end" style={{ maxHeight: '100px' }} navbarScroll>
-            <Nav.Link href="#action1">عربي</Nav.Link>
+            <Nav.Link className="langBtn" href="#action1">
+              <button type="button" class="btn btn-text text-white text16 fw-normal ">
+                عربي
+              </button>
+            </Nav.Link>
             <Button className="button-main ">Manage Shipment</Button>
           </Nav>
         </Col>

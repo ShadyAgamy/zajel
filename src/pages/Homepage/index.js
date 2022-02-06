@@ -17,6 +17,9 @@ import blueCurve from '../../assets/images/curveBlue.png';
 import world from '../../assets/icons/world-sm.svg';
 import box from '../../assets/icons/box-sm.svg';
 import snap from '../../assets/icons/snap.svg';
+import truck2 from '../../assets/icons/truck2.svg';
+import plane from '../../assets/icons/plane.svg';
+import ship from '../../assets/icons/ship.svg';
 import video from '../../assets/videos/video.mp4';
 import frame from '../../assets/images/frame.png';
 import logistic from '../../assets/images/logist.png';
@@ -26,6 +29,11 @@ import news from '../../assets/images/news.png';
 import news1 from '../../assets/images/news1.png';
 import news2 from '../../assets/images/news2.png';
 import news3 from '../../assets/images/news3.png';
+import sky from '../../assets/images/sky.png';
+import earth from '../../assets/images/earth.png';
+import countries from '../../assets/images/countries.png';
+import cloud1 from '../../assets/images/cloud1.png';
+import cloud2 from '../../assets/images/cloud2.png';
 
 import 'swiper/css';
 import './styles.scss';
@@ -332,6 +340,55 @@ const HomePage = () => {
           </Container>
         </div>
       </div>
+
+      <section className="network" style={{ backgroundImage: `url(${sky})` }}>
+        <img src={cloud1} alt="cloud shape" />
+        <img src={cloud2} alt="cloud shape" />
+        <Container className="h-100" fluid>
+          <Row className="h-100 align-items-center">
+            <Col className="image">
+              <img src={countries} alt="" className="countries" />
+              <img src={earth} alt="earth" />
+            </Col>
+            <Col>
+              <svg xmlns="http://www.w3.org/2000/svg" width="58" height="3" viewBox="0 0 58 3">
+                <g id="Group_41472" data-name="Group 41472" transform="translate(-691 -995)">
+                  <path
+                    id="Path_86496"
+                    data-name="Path 86496"
+                    d="M1.5,0H29L26.694,3H1.5a1.5,1.5,0,0,1,0-3Z"
+                    transform="translate(691 995)"
+                    fill="#0054a6"
+                  />
+                  <path
+                    id="Path_86497"
+                    data-name="Path 86497"
+                    d="M27.5,3H0L2.306,0H27.5a1.5,1.5,0,0,1,0,3Z"
+                    transform="translate(720 995)"
+                    fill="#ffc20e"
+                  />
+                </g>
+              </svg>
+              <h2 className="homepage_title ">Global Carrier Network for Global Business Opportunity</h2>
+              <Row className="px-0">
+                <Col className="">
+                  <img src={ship} alt="ship" />
+                  <p>Sea Freight</p>
+                </Col>
+                <Col className="">
+                  <img src={truck2} alt="truck" />
+                  <p>Land Freight</p>
+                </Col>
+                <Col className="">
+                  <img src={plane} alt="air plane" />
+                  <p>Air Freight</p>
+                </Col>
+              </Row>
+            </Col>
+          </Row>
+        </Container>
+      </section>
+
       <div className="logistics ">
         <div className="text-center">
           <svg xmlns="http://www.w3.org/2000/svg" width="58" height="3" viewBox="0 0 58 3">
@@ -376,7 +433,7 @@ const HomePage = () => {
                         From seamless, “account-less” simple shipping to friction-free COD services, Zajil is committed to making shipping and
                         logistics easy.
                       </p>
-                      <button type="button" class="btn btn-text ">
+                      <button type="button" className="btn btn-text ">
                         Learn More
                         <svg xmlns="http://www.w3.org/2000/svg" width="6.266" height="10.41" viewBox="0 0 6.266 10.41">
                           <path
@@ -403,7 +460,7 @@ const HomePage = () => {
                         From seamless, “account-less” simple shipping to friction-free COD services, Zajil is committed to making shipping and
                         logistics easy.
                       </p>
-                      <button type="button" class="btn btn-text ">
+                      <button type="button" className="btn btn-text ">
                         Learn More
                         <svg xmlns="http://www.w3.org/2000/svg" width="6.266" height="10.41" viewBox="0 0 6.266 10.41">
                           <path
@@ -430,7 +487,7 @@ const HomePage = () => {
                         From seamless, “account-less” simple shipping to friction-free COD services, Zajil is committed to making shipping and
                         logistics easy.
                       </p>
-                      <button type="button" class="btn btn-text ">
+                      <button type="button" className="btn btn-text ">
                         Learn More
                         <svg xmlns="http://www.w3.org/2000/svg" width="6.266" height="10.41" viewBox="0 0 6.266 10.41">
                           <path
@@ -457,7 +514,7 @@ const HomePage = () => {
                         From seamless, “account-less” simple shipping to friction-free COD services, Zajil is committed to making shipping and
                         logistics easy.
                       </p>
-                      <button type="button" class="btn btn-text ">
+                      <button type="button" className="btn btn-text ">
                         Learn More
                         <svg xmlns="http://www.w3.org/2000/svg" width="6.266" height="10.41" viewBox="0 0 6.266 10.41">
                           <path
@@ -480,13 +537,13 @@ const HomePage = () => {
           </Row>
         </div>
       </div>
-      <Container className="" fluid>
+      <Container fluid>
         <div className="mid-banner primaryGradient-horizontal" style={{ backgroundImage: `url(${midBanner})` }}>
           <img className="frame" src={frame} alt="" />
           <div className="content">
             <h3>Expand Your Business with Zajil</h3>
             <p>Talk to a KSA shipping and logistics expert at Zajil today.</p>
-            <button type="button" class="btn btn-text text-white">
+            <button type="button" className="btn btn-text text-white">
               Learn More
               <svg xmlns="http://www.w3.org/2000/svg" width="6.266" height="10.41" viewBox="0 0 6.266 10.41">
                 <path
@@ -800,7 +857,7 @@ const HomePage = () => {
                   <p className="text14 main-p">8 June 2020</p>
                   <Card.Title className="primary-title mb-2">Zajil Investment</Card.Title>
                   <Card.Text className="main-p mb-4 text20 w-75">Zajil announces major investment in global shipping network capacity.</Card.Text>
-                  <button type="button" class="btn btn-text fw-normal">
+                  <button type="button" className="btn btn-text fw-normal">
                     read More
                     <svg xmlns="http://www.w3.org/2000/svg" width="6.266" height="10.41" viewBox="0 0 6.266 10.41">
                       <path
@@ -827,7 +884,7 @@ const HomePage = () => {
                     Zajil CARE, a commitment to business values that highlight KSA competitive Zajil CARE, a commitment to business values that
                     highlight KSA competitive
                   </Card.Text>
-                  <button type="button" class="btn btn-text fw-normal">
+                  <button type="button" className="btn btn-text fw-normal">
                     read More
                     <svg xmlns="http://www.w3.org/2000/svg" width="6.266" height="10.41" viewBox="0 0 6.266 10.41">
                       <path
@@ -853,7 +910,7 @@ const HomePage = () => {
                     Zajil mobile app to simplify user experience in managing global shipping Zajil mobile app to simplify user experience in managing
                     global shipping
                   </Card.Text>
-                  <button type="button" class="btn btn-text fw-normal">
+                  <button type="button" className="btn btn-text fw-normal">
                     read More
                     <svg xmlns="http://www.w3.org/2000/svg" width="6.266" height="10.41" viewBox="0 0 6.266 10.41">
                       <path
@@ -879,7 +936,7 @@ const HomePage = () => {
                     Zajil mobile app to simplify user experience in managing global shipping Zajil mobile app to simplify user experience in managing
                     global shipping
                   </Card.Text>
-                  <button type="button" class="btn btn-text fw-normal">
+                  <button type="button" className="btn btn-text fw-normal">
                     read More
                     <svg xmlns="http://www.w3.org/2000/svg" width="6.266" height="10.41" viewBox="0 0 6.266 10.41">
                       <path
@@ -906,6 +963,8 @@ const HomePage = () => {
           </Row>
         </Container>
       </section>
+
+      <Footer></Footer>
     </div>
   );
 };

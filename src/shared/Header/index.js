@@ -1,28 +1,36 @@
 import React from 'react';
-import { Button } from 'react-bootstrap';
-import './styles.scss';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { EffectCreative } from 'swiper';
 import slide1 from '../../assets/images/header.png';
 import slide2 from '../../assets/images/header2.png';
 import slide3 from '../../assets/images/header3.png';
-import 'swiper/css';
-import 'swiper/css/pagination';
-import 'swiper/css/navigation';
+import shape from '../../assets/images/frame.png';
 
-import SwiperCore, { Autoplay } from 'swiper';
+import 'swiper/css/pagination';
+import 'swiper/css';
+import './styles.scss';
+import SwiperCore, { Autoplay, Pagination } from 'swiper';
 SwiperCore.use([Autoplay]);
 
 function Header() {
+  const pagination = {
+    el: '.header_custom-pagination',
+    clickable: true,
+    renderBullet: function (index, className) {
+      return '<div class="' + className + '"></div>';
+    },
+  };
+
   return (
     <div className="header">
+      <div className="header_custom-pagination"></div>
       <Swiper
+        pagination={pagination}
         speed={1000}
-        // loop={true}
-        // autoplay={{
-        //   delay: 3000,
-        //   disableOnInteraction: true,
-        // }}
+        autoplay={{
+          delay: 3000,
+          disableOnInteraction: true,
+        }}
         effect={'creative'}
         creativeEffect={{
           prev: {
@@ -33,7 +41,7 @@ function Header() {
             translate: ['100%', 0, 0],
           },
         }}
-        modules={[EffectCreative]}
+        modules={[EffectCreative, Pagination]}
         className="mySwiper2"
       >
         <SwiperSlide>
@@ -43,10 +51,14 @@ function Header() {
               backgroundImage: `url(${slide1})`,
             }}
           >
+            <img src={shape} alt="shape" className="shape shape1" />
+            <img src={shape} alt="shape" className="shape shape2" />
             <div className="header_slide-content  text-white text-center">
               <h2>Affordable, Simplified Shipping and Logistics From Zajil</h2>
               <p className="text-white">Discover what our Saudi integrity and global capacity can do for your bottom line</p>
-              <Button className="button-main ">Manage Shipment</Button>
+              <button type="button" class="text18 fw-normal  btn btn-secondery-outline">
+                Learn More
+              </button>
             </div>
           </div>
         </SwiperSlide>
@@ -57,10 +69,14 @@ function Header() {
               backgroundImage: `url(${slide2})`,
             }}
           >
+            <img src={shape} alt="shape" className="shape shape1" />
+            <img src={shape} alt="shape" className="shape shape2" />
             <div className="header_slide-content  text-white text-center">
               <h2>Affordable, Simplified Shipping and Logistics From Zajil</h2>
               <p className="text-white">Discover what our Saudi integrity and global capacity can do for your bottom line</p>
-              <Button className="button-main ">Manage Shipment</Button>
+              <button type="button" class="text18 fw-normal  btn btn-secondery-outline">
+                Learn More
+              </button>
             </div>
           </div>
         </SwiperSlide>
@@ -71,10 +87,14 @@ function Header() {
               backgroundImage: `url(${slide3})`,
             }}
           >
+            <img src={shape} alt="shape" className="shape shape1" />
+            <img src={shape} alt="shape" className="shape shape2" />
             <div className="header_slide-content  text-white text-center">
               <h2>Affordable, Simplified Shipping and Logistics From Zajil</h2>
               <p className="text-white">Discover what our Saudi integrity and global capacity can do for your bottom line</p>
-              <Button className="button-main ">Manage Shipment</Button>
+              <button type="button" class="text18 fw-normal  btn btn-secondery-outline">
+                Learn More
+              </button>
             </div>
           </div>
         </SwiperSlide>
