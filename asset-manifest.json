@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/zajel/static/css/main.ac71ea5b.css",
+    "main.js": "/zajel/static/js/main.933850e1.js",
+    "static/js/787.e70bc985.chunk.js": "/zajel/static/js/787.e70bc985.chunk.js",
+    "static/media/video.mp4": "/zajel/static/media/video.e18b3a677dc12281e879.mp4",
+    "static/media/header3.png": "/zajel/static/media/header3.faf372e39036fa422af6.png",
+    "static/media/cloud1.png": "/zajel/static/media/cloud1.b6e6fc8732ca1c02cf7a.png",
+    "static/media/header2.png": "/zajel/static/media/header2.93216b43fe7fc49ca8d0.png",
+    "static/media/cloud2.png": "/zajel/static/media/cloud2.731a435eefd737db1e97.png",
+    "static/media/logist.png": "/zajel/static/media/logist.8f881b35fbbfc42313b4.png",
+    "static/media/sky.png": "/zajel/static/media/sky.9a2a471dee7b4f93cd61.png",
+    "static/media/earth.png": "/zajel/static/media/earth.ea9b22afee4b82f958f9.png",
+    "static/media/din-next-lt-w23-light.ttf": "/zajel/static/media/din-next-lt-w23-light.fda83330347e2b9d31fb.ttf",
+    "static/media/mid-banner.png": "/zajel/static/media/mid-banner.a9245fb425e0e68ecd26.png",
+    "static/media/header.png": "/zajel/static/media/header.d3ab5a0fa50ee704241f.png",
+    "static/media/din-next-lt-w23-regular.ttf": "/zajel/static/media/din-next-lt-w23-regular.d215eb8db524d88ae951.ttf",
+    "static/media/din-next-lt-w23-medium.ttf": "/zajel/static/media/din-next-lt-w23-medium.764f89588e0f70e42ca1.ttf",
+    "static/media/din-next-lt-w23-bold.ttf": "/zajel/static/media/din-next-lt-w23-bold.50e3d3a6e8828ef449f9.ttf",
+    "static/media/news.png": "/zajel/static/media/news.aabb0f5cdda3673813b9.png",
+    "static/media/news3.png": "/zajel/static/media/news3.8e896875f3756d94131f.png",
+    "static/media/news1.png": "/zajel/static/media/news1.4d6bbfbf9621597d4390.png",
+    "static/media/news2.png": "/zajel/static/media/news2.18c5e3131f16445901af.png",
+    "static/media/world-sm.svg": "/zajel/static/media/world-sm.a0dcf62efca8a3e9374fdb04cd2177e5.svg",
+    "static/media/snap.svg": "/zajel/static/media/snap.b552b1296709440be3583154a3bf65cc.svg",
+    "static/media/ship.svg": "/zajel/static/media/ship.10e08a736b65f743e5b226d5a07682af.svg",
+    "static/media/truck2.svg": "/zajel/static/media/truck2.f3b9ed326e98bf7a6d27422d6dbf4fef.svg",
+    "static/media/box-sm.svg": "/zajel/static/media/box-sm.ce175782f422112e3d67af6d315001ed.svg",
+    "static/media/plane.svg": "/zajel/static/media/plane.d6e41521ceb5cdc2f267af34e3c9635b.svg",
+    "index.html": "/zajel/index.html",
+    "main.ac71ea5b.css.map": "/zajel/static/css/main.ac71ea5b.css.map",
+    "main.933850e1.js.map": "/zajel/static/js/main.933850e1.js.map",
+    "787.e70bc985.chunk.js.map": "/zajel/static/js/787.e70bc985.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ac71ea5b.css",
+    "static/js/main.933850e1.js"
+  ]
+}
